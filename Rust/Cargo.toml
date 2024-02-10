@@ -1,0 +1,21 @@
+[package]
+name = "JoypadStream"
+version = "1.0.0"
+edition = "2021"
+build = "src/build.rs"
+
+[package.metadata.winres]
+OriginalFilename = "JoypadStream.EXE"
+LegalCopyright = "Copyright © 2024 Christopher Sloetjes"
+ProducVersion = 1.0
+FileDescription = "USB Joypad Streaming console"
+ProductName = "Clamstar Joypad Streamer"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+winres = "0.1"
+
+[dependencies]
+gilrs = "0.10.3"
+winres = "0.1.12"

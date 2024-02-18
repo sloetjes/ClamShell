@@ -1,4 +1,10 @@
-Joypad.exe has two dependencies: gilrs and winres.
+Joypad.exe is written in Rust and has two dependencies: 'gilrs' and 'winres'. The library 'gilrs' does the actual reading of Joypad data from USB via magic.  The library 'winres' adds an icon to the executable file when views in Windows File Explorer.
+
+I included the executable here if you're unable to compile in Rust. 
+
+It prints a stream of Joypad events to the console (whatever the Rest equivalent to Java's System.out is).
+
+This program is meant to feed the Java joypad API, but it could also be used in any language where you start a process and read it's output stream.
 
 -Chris
   

@@ -1,4 +1,4 @@
-Joypad.exe is written in Rust and has two dependencies: 'gilrs' and 'winres'. The library 'gilrs' does the actual reading of Joypad data from USB via magic.  The library 'winres' adds an icon to the executable file when views in Windows File Explorer.
+Joypad.exe is written in Rust and has two dependencies: 'gilrs' and 'winres'. The library 'gilrs' does the actual reading of Joypad data from USB via magic.  The library 'winres' adds an icon to the executable file when views in Windows File Explorer; the included build.rs specifies a file to include. Look into it.
 
 I included the executable here if you're unable to compile in Rust. 
 

@@ -1,0 +1,4 @@
+Joypad.exe has two dependencies: gilrs and winres.
+
+-Chris
+  
